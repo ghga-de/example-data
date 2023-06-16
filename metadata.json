@@ -1,5 +1,5 @@
 {
-    "Study": [
+    "study": [
         {
             "alias": "STUDY_A",
             "title": "The A Study",
@@ -18,7 +18,7 @@
             "affiliations": []
         }
     ],
-    "StudyFile": [
+    "study_file": [
         {
             "alias": "FILE_1",
             "study": "STUDY_A",
@@ -540,7 +540,7 @@
             "dataset": "DS_4"
         }
     ],
-    "Dataset": [
+    "dataset": [
         {
             "alias": "DS_1",
             "title": "The A dataset",
@@ -578,7 +578,7 @@
             "data_access_policy": "DAP_2"
         }
     ],
-    "DataAccessPolicy": [
+    "data_access_policy": [
         {
             "alias": "DAP_1",
             "name": "DAP 1",
@@ -600,12 +600,12 @@
             "data_use_modifiers": "user specific restriction"
         }
     ],
-    "DataAccessCommittee": [
+    "data_access_committee": [
         {
             "alias": "DAC_1",
             "name": "The DAC 1",
             "description": "A great DAC. Very friendly."
         }
     ],
-    "Publication": []
+    "publication": []
 }
