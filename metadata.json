@@ -585,9 +585,7 @@
             "description": "A Data Access Policy 1",
             "policy_text": "This is a very permissible DAP",
             "policy_url": "http://some/policy",
-            "data_access_committee": "DAC_1",
-            "data_use_permission": "disease specific research",
-            "data_use_modifiers": "clinical care use"
+            "data_access_committee": "DAC_1"
         },
         {
             "alias": "DAP_2",
@@ -595,9 +593,7 @@
             "description": "A Data Access Policy 2",
             "policy_text": "This is a very strict DAP",
             "policy_url": "http://some/other/policy",
-            "data_access_committee": "DAC_1",
-            "data_use_permission": "no restriction",
-            "data_use_modifiers": "user specific restriction"
+            "data_access_committee": "DAC_1"
         }
     ],
     "data_access_committees": [
@@ -607,5 +603,12 @@
             "description": "A great DAC. Very friendly."
         }
     ],
-    "publications": []
+    "publications": [],
+    "analysis_process_output_files": [],
+    "analysis_processes": [],
+    "conditions": [],
+    "sample_files": [],
+    "sequencing_process_files": [],
+    "sequencing_processes": [],
+    "trios": []
 }
