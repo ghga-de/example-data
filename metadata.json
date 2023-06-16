@@ -578,7 +578,7 @@
             "data_access_policy": "DAP_2"
         }
     ],
-    "data_access_policy": [
+    "data_access_policies": [
         {
             "alias": "DAP_1",
             "name": "DAP 1",
@@ -600,7 +600,7 @@
             "data_use_modifiers": "user specific restriction"
         }
     ],
-    "data_access_committee": [
+    "data_access_committees": [
         {
             "alias": "DAC_1",
             "name": "The DAC 1",
