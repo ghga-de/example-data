@@ -1,5 +1,5 @@
 {
-    "study": [
+    "studies": [
         {
             "alias": "STUDY_A",
             "title": "The A Study",
@@ -18,7 +18,7 @@
             "affiliations": []
         }
     ],
-    "study_file": [
+    "study_files": [
         {
             "alias": "FILE_1",
             "study": "STUDY_A",
@@ -540,7 +540,7 @@
             "dataset": "DS_4"
         }
     ],
-    "dataset": [
+    "datasets": [
         {
             "alias": "DS_1",
             "title": "The A dataset",
@@ -607,5 +607,5 @@
             "description": "A great DAC. Very friendly."
         }
     ],
-    "publication": []
+    "publications": []
 }
