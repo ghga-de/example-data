@@ -1,4 +1,91 @@
 {
+    "analyses": [],
+    "analysis_process_output_files": [],
+    "analysis_processes": [],
+    "biospecimens": [],
+    "conditions": [],
+    "data_access_committees": [
+        {
+            "alias": "DAC_1",
+            "email": "dac@dac.dac",
+            "institute": "The DAC institute"
+        }
+    ],
+    "data_access_policies": [
+        {
+            "alias": "DAP_1",
+            "name": "DAP 1",
+            "description": "A Data Access Policy 1",
+            "policy_text": "This is a very permissible DAP",
+            "policy_url": "http://some/policy",
+            "data_access_committee": "DAC_1",
+            "data_use_permission": "disease specific research",
+            "data_use_modifiers": [
+                "clinical care use"
+            ]
+        },
+        {
+            "alias": "DAP_2",
+            "name": "DAP 2",
+            "description": "A Data Access Policy 2",
+            "policy_text": "This is a very strict DAP",
+            "policy_url": "http://some/other/policy",
+            "data_access_committee": "DAC_1",
+            "data_use_permission": "no restriction",
+            "data_use_modifiers": [
+                "user specific restriction"
+            ]
+        }
+    ],
+    "datasets": [
+        {
+            "alias": "DS_1",
+            "title": "The A dataset",
+            "description": "An interesting dataset A",
+            "types": [
+                "A Type",
+                "Another Type"
+            ],
+            "data_access_policy": "DAP_1"
+        },
+        {
+            "alias": "DS_2",
+            "title": "The B dataset",
+            "description": "An interesting dataset B",
+            "types": [
+                "And another Type"
+            ],
+            "data_access_policy": "DAP_1"
+        },
+        {
+            "alias": "DS_3",
+            "title": "The C dataset",
+            "description": "An interesting dataset C",
+            "types": [
+                "And yet another Type",
+                "A Type"
+            ],
+            "data_access_policy": "DAP_1"
+        },
+        {
+            "alias": "DS_4",
+            "title": "The D dataset",
+            "description": "An interesting dataset D",
+            "types": [
+                "A Type"
+            ],
+            "data_access_policy": "DAP_2"
+        }
+    ],
+    "individuals": [],
+    "library_preparation_protocols": [],
+    "publications": [],
+    "sample_files": [],
+    "samples": [],
+    "sequencing_experiments": [],
+    "sequencing_process_files": [],
+    "sequencing_processes": [],
+    "sequencing_protocols": [],
     "studies": [
         {
             "alias": "STUDY_A",
@@ -9,15 +96,25 @@
                 "Some Institute",
                 "Some other Institute"
             ],
-            "attributes": []
+            "attributes": [
+                {
+                    "key": "budget",
+                    "value": "3.5M"
+                },
+                {
+                    "key": "funding",
+                    "value": "EU"
+                }
+            ]
         },
         {
             "alias": "STUDY_B",
             "title": "The B Study",
             "description": "A study that is the B study",
             "type": "WHOLE_GENOME_SEQUENCING",
-            "affiliations": [],
-            "attributes": []
+            "affiliations": [
+                "Some Institute"
+            ]
         }
     ],
     "study_files": [
@@ -542,86 +639,5 @@
             "dataset": "DS_4"
         }
     ],
-    "datasets": [
-        {
-            "alias": "DS_1",
-            "title": "The A dataset",
-            "description": "An interesting dataset A",
-            "types": [
-                "A Type",
-                "Another Type"
-            ],
-            "data_access_policy": "DAP_1"
-        },
-        {
-            "alias": "DS_2",
-            "title": "The B dataset",
-            "description": "An interesting dataset B",
-            "types": [
-                "And another Type"
-            ],
-            "data_access_policy": "DAP_1"
-        },
-        {
-            "alias": "DS_3",
-            "title": "The C dataset",
-            "description": "An interesting dataset C",
-            "types": [
-                "And yet another Type",
-                "A Type"
-            ],
-            "data_access_policy": "DAP_1"
-        },
-        {
-            "alias": "DS_4",
-            "title": "The D dataset",
-            "description": "An interesting dataset D",
-            "types": [],
-            "data_access_policy": "DAP_2"
-        }
-    ],
-    "data_access_policies": [
-        {
-            "alias": "DAP_1",
-            "name": "DAP 1",
-            "description": "A Data Access Policy 1",
-            "policy_text": "This is a very permissible DAP",
-            "policy_url": "http://some/policy",
-            "data_access_committee": "DAC_1",
-            "data_use_permission": "disease specific research",
-            "data_use_modifiers": ["clinical care use"]
-        },
-        {
-            "alias": "DAP_2",
-            "name": "DAP 2",
-            "description": "A Data Access Policy 2",
-            "policy_text": "This is a very strict DAP",
-            "policy_url": "http://some/other/policy",
-            "data_access_committee": "DAC_1",
-            "data_use_permission": "no restriction",
-            "data_use_modifiers": ["user specific restriction"]
-        }
-    ],
-    "data_access_committees": [
-        {
-            "alias": "DAC_1",
-            "email": "dac@dac.dac",
-            "institute": "The DAC institute"
-        }
-    ],
-    "publications": [],
-    "analysis_process_output_files": [],
-    "analysis_processes": [],
-    "conditions": [],
-    "sample_files": [],
-    "sequencing_process_files": [],
-    "sequencing_processes": [],
-    "trios": [],
-    "analyses": [],
-    "biospecimens": [],
-    "individuals": [],
-    "samples": [],
-    "sequencing_experiments": [],
-    "sequencing_protocols": [],
-    "library_preparation_protocols": []
+    "trios": []
 }
