@@ -8,14 +8,16 @@
             "affiliations": [
                 "Some Institute",
                 "Some other Institute"
-            ]
+            ],
+            "attributes": []
         },
         {
             "alias": "STUDY_B",
             "title": "The B Study",
             "description": "A study that is the B study",
             "type": "WHOLE_GENOME_SEQUENCING",
-            "affiliations": []
+            "affiliations": [],
+            "attributes": []
         }
     ],
     "study_files": [
@@ -603,8 +605,8 @@
     "data_access_committees": [
         {
             "alias": "DAC_1",
-            "name": "The DAC 1",
-            "description": "A great DAC. Very friendly."
+            "email": "dac@dac.dac",
+            "institute": "The DAC institute"
         }
     ],
     "publications": [],
@@ -614,5 +616,12 @@
     "sample_files": [],
     "sequencing_process_files": [],
     "sequencing_processes": [],
-    "trios": []
+    "trios": [],
+    "analyses": [],
+    "biospecimens": [],
+    "individuals": [],
+    "samples": [],
+    "sequencing_experiments": [],
+    "sequencing_protocols": [],
+    "library_preparation_protocols": []
 }
