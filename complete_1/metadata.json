@@ -172,20 +172,20 @@
             "name": "Biospecmen material",
             "type": "Blood",
             "description": "Blood biospecimen",
-            "isolation": "Blood withdrawing method",
+            "isolation": "SNOMED:122552005",
             "storage": "refrigitation at 4 degree",
             "individual": "INDV_1",
-            "tissue": "blood"
+            "tissue": "BTO:0000089"
         },
         {
             "alias": "BIOSPECIMEN_2",
             "name": "Another biospecimen material",
             "type": "Subcutaneous fat",
             "description": "Subcutaneous fat biospecimen",
-            "isolation": "Fat cell isolation method",
+            "isolation": "SNOMED:75016008",
             "storage": "refrigitation at 4 degree",
             "individual": "INDV_1",
-            "tissue": "subcutaneous adipose tissue"
+            "tissue": "BTO:0004042"
         }
     ],
     "conditions": [
@@ -271,9 +271,9 @@
             "karyotype": "other",
             "age_at_sampling": "66_to_70",
             "vital_status": "alive",
-            "geographical_region": "Italy",
+            "geographical_region": "HANCESTRO:0307",
             "ancestries": [
-                "European"
+                "HANCESTRO:0005"
             ],
             "phenotypic_features": [
                 "HP:0001909"
@@ -284,10 +284,10 @@
             "sex": "female",
             "karyotype": "other",
             "age_at_sampling": "81_or_older",
-            "vital_status": "dead",
-            "geographical_region": "Italy",
+            "vital_status": "alive",
+            "geographical_region": "HANCESTRO:0307",
             "ancestries": [
-                "European"
+                "HANCESTRO:0005"
             ],
             "phenotypic_features": [
                 "HP:0001909"
@@ -298,10 +298,10 @@
             "sex": "male",
             "karyotype": "other",
             "age_at_sampling": "81_or_older",
-            "vital_status": "dead",
-            "geographical_region": "Italy",
+            "vital_status": "alive",
+            "geographical_region": "HANCESTRO:0307",
             "ancestries": [
-                "European"
+                "HANCESTRO:0005"
             ],
             "phenotypic_features": [
                 "HP:0001909"
@@ -313,7 +313,7 @@
             "alias": "LIB_PREP_1",
             "description": "Sequence library is prepared like this. ",
             "library_name": "Library A",
-            "library_layout": "paired-end ",
+            "library_layout": "PE",
             "library_type": "WGS",
             "library_selection": "unspecified",
             "library_preparation": "PCR-amplification",
@@ -361,7 +361,7 @@
             "name": "GHGAS_blood_sample1",
             "type": "arterial blood",
             "description": "Arterial blood sample 1",
-            "isolation": "blood collection tube",
+            "isolation": "SNOMED:466722000",
             "storage": "frozen at -20",
             "biospecimen": "BIOSPECIMEN_1",
             "condition": "CONDITION_1"
@@ -371,7 +371,7 @@
             "name": "GHGAS_tissue_sample1",
             "type": "white adipose tissue",
             "description": "white adipose tissue sample 1",
-            "isolation": "biopsy",
+            "isolation": "SNOMED:9911007",
             "storage": "frozen at -80",
             "biospecimen": "BIOSPECIMEN_2",
             "condition": "CONDITION_2"
