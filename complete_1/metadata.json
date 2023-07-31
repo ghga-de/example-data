@@ -106,63 +106,63 @@
             "alias": "ANALYSIS_PROCESS_1",
             "analysis": "ANALYSIS_1",
             "sequencing_process_input_files": [
-                "SAMPLE_1_SPECIMEN_1_FILE_1.fastq.gz"
+                "SEQ_FILE_1"
             ]
         },
         {
             "alias": "ANALYSIS_PROCESS_2",
             "analysis": "ANALYSIS_1",
             "sequencing_process_input_files": [
-                "SAMPLE_1_SPECIMEN_1_FILE_2.fastq.gz"
+                "SEQ_FILE_2"
             ]
         },
         {
             "alias": "ANALYSIS_PROCESS_3",
             "analysis": "ANALYSIS_1",
             "sequencing_process_input_files": [
-                "SAMPLE_1_SPECIMEN_1_FILE_3.fastq.gz"
+                "SEQ_FILE_3"
             ]
         },
         {
             "alias": "ANALYSIS_PROCESS_4",
             "analysis": "ANALYSIS_1",
             "sequencing_process_input_files": [
-                "SAMPLE_2_SPECIMEN_1_FILE_4.fastq.gz"
+                "SEQ_FILE_4"
             ]
         },
         {
             "alias": "ANALYSIS_PROCESS_5",
             "analysis": "ANALYSIS_1",
             "sequencing_process_input_files": [
-                "SAMPLE_2_SPECIMEN_1_FILE_5.fastq.gz"
+                "SEQ_FILE_5"
             ]
         },
         {
             "alias": "ANALYSIS_PROCESS_6",
             "analysis": "ANALYSIS_1",
             "sequencing_process_input_files": [
-                "SAMPLE_2_SPECIMEN_1_FILE_6.fastq.gz"
+                "SEQ_FILE_6"
             ]
         },
         {
             "alias": "ANALYSIS_PROCESS_7",
             "analysis": "ANALYSIS_1",
             "sequencing_process_input_files": [
-                "SAMPLE_2_SPECIMEN_1_FILE_7.fastq.gz"
+                "SEQ_FILE_7"
             ]
         },
         {
             "alias": "ANALYSIS_PROCESS_8",
             "analysis": "ANALYSIS_1",
             "sequencing_process_input_files": [
-                "SAMPLE_2_SPECIMEN_1_FILE_8.fastq.gz"
+                "SEQ_FILE_8"
             ]
         },
         {
             "alias": "ANALYSIS_PROCESS_9",
             "analysis": "ANALYSIS_1",
             "sequencing_process_input_files": [
-                "SAMPLE_2_SPECIMEN_1_FILE_9.fastq.gz"
+                "SEQ_FILE_9"
             ]
         }
     ],
@@ -194,20 +194,20 @@
             "title": "Condition A",
             "description": "Condition A is a condition",
             "name": "Condition A",
-            "disease_or_healthy": "disease",
-            "case_control_status": "true case status",
-            "mutant_or_wildtype": "mutant",
-            "study": "Study_A"
+            "disease_or_healthy": "DISEASE",
+            "case_control_status": "TRUE_CASE_STATUS",
+            "mutant_or_wildtype": "MUTANT",
+            "study": "STUDY_A"
         },
         {
             "alias": "COND_2",
             "title": "Condition B",
             "description": "Condition B is another condition",
             "name": "Condition B",
-            "disease_or_healthy": "healthy",
-            "case_control_status": "true control status",
-            "mutant_or_wildtype": "wildtype",
-            "study": "Study_B"
+            "disease_or_healthy": "HEALTHY",
+            "case_control_status": "TRUE_CONTROL_STATUS",
+            "mutant_or_wildtype": "WILDTYPE",
+            "study": "STUDY_B"
         }
     ],
     "data_access_committees": [
@@ -267,10 +267,10 @@
     "individuals": [
         {
             "alias": "INDV_1",
-            "sex": "male",
-            "karyotype": "other",
-            "age_at_sampling": "66_to_70",
-            "vital_status": "alive",
+            "sex": "MALE_SEX_FOR_CLINICAL_USE",
+            "karyotype": "OTHER",
+            "age_at_sampling": "66_TO_70",
+            "vital_status": "ALIVE",
             "geographical_region": "HANCESTRO:0307",
             "ancestries": [
                 "HANCESTRO:0005"
@@ -281,10 +281,10 @@
         },
         {
             "alias": "MOTHER_1",
-            "sex": "female",
-            "karyotype": "other",
-            "age_at_sampling": "81_or_older",
-            "vital_status": "alive",
+            "sex": "FEMALE_SEX_FOR_CLINICAL_USE",
+            "karyotype": "OTHER",
+            "age_at_sampling": "81_OR_OLDER",
+            "vital_status": "ALIVE",
             "geographical_region": "HANCESTRO:0307",
             "ancestries": [
                 "HANCESTRO:0005"
@@ -295,10 +295,10 @@
         },
         {
             "alias": "FATHER_1",
-            "sex": "male",
-            "karyotype": "other",
-            "age_at_sampling": "81_or_older",
-            "vital_status": "alive",
+            "sex": "MALE_SEX_FOR_CLINICAL_USE",
+            "karyotype": "OTHER",
+            "age_at_sampling": "81_OR_OLDER",
+            "vital_status": "ALIVE",
             "geographical_region": "HANCESTRO:0307",
             "ancestries": [
                 "HANCESTRO:0005"
@@ -315,12 +315,12 @@
             "library_name": "Library A",
             "library_layout": "PE",
             "library_type": "WGS",
-            "library_selection": "unspecified",
+            "library_selection": "UNSPECIFIED",
             "library_preparation": "PCR-amplification",
-            "library_preparation_kit_retail_name": "Illumina TruSeq DNA",
+            "library_preparation_kit_retail_name": "ILLUMINA_TRU_SEQ_DNA",
             "library_preparation_kit_manufacturer": "Illumina",
-            "primer": "gene-specific",
-            "end_bias": "full length",
+            "primer": "GENE_SPECIFIC",
+            "end_bias": "FULL_LENGTH",
             "target_regions": [
                 "chr6:123456-12345678"
             ]
@@ -335,7 +335,7 @@
             "year": 1965,
             "journal": "Journal of Studies",
             "doi": "10.1234/abcd.5678",
-            "study": "STUDY_1",
+            "study": "STUDY_A",
             "xref": [
                 "abcd_pubmed_link.pubmed"
             ]
@@ -348,7 +348,7 @@
             "year": 1967,
             "journal": "Journal of Studies",
             "doi": "10.9876/efgh.5432",
-            "study": "STUDY_1",
+            "study": "STUDY_B",
             "xref": [
                 "efgh_pubmed_link.pubmed"
             ]
@@ -359,22 +359,22 @@
         {
             "alias": "SAMPLE_1",
             "name": "GHGAS_blood_sample1",
-            "type": "arterial blood",
+            "type": "CF_DNA",
             "description": "Arterial blood sample 1",
             "isolation": "SNOMED:466722000",
             "storage": "frozen at -20",
             "biospecimen": "BIOSPECIMEN_1",
-            "condition": "CONDITION_1"
+            "condition": "COND_1"
         },
         {
             "alias": "SAMPLE_2",
             "name": "GHGAS_tissue_sample1",
-            "type": "white adipose tissue",
+            "type": "CF_DNA",
             "description": "white adipose tissue sample 1",
             "isolation": "SNOMED:9911007",
             "storage": "frozen at -80",
             "biospecimen": "BIOSPECIMEN_2",
-            "condition": "CONDITION_2"
+            "condition": "COND_2"
         }
     ],
     "sequencing_experiments": [
@@ -585,20 +585,20 @@
             "alias": "SEQ_PRO_1",
             "description": "Sequence protocol 1 is conducted like this. ",
             "type": "DNA-seq",
-            "instrument_model": "Illumina NovaSeq 6000",
+            "instrument_model": "ILLUMINA_NOVA_SEQ_6000",
             "sequencing_center": "Center A",
             "sequencing_read_length": "long",
-            "forward_or_reverse": "paired-end",
+            "forward_or_reverse": "REVERSE",
             "target_coverage": "x50",
             "flow_cell_id": "ID_Cell 1_Lane_1",
-            "flow_cell_type": "S4",
-            "umi_barcode_read": "index1",
-            "umi_barcode_offset": 16,
-            "umi_barcode_size": 10,
-            "cell_barcode_read": "index1",
-            "cell_barcode_offset": 20,
-            "cell_barcode_size": 18,
-            "sample_barcode_read": "index1",
+            "flow_cell_type": "ILLUMINA_NOVA_SEQ_S4",
+            "umi_barcode_read": "INDEX1",
+            "umi_barcode_offset": "16'",
+            "umi_barcode_size": "10'",
+            "cell_barcode_read": "INDEX1",
+            "cell_barcode_offset": "20'",
+            "cell_barcode_size": "18'",
+            "sample_barcode_read": "INDEX1",
             "index_sequence": "AGTCGATCGTAC",
             "lane_number": "lane_1"
         }
