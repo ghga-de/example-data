@@ -175,6 +175,7 @@
             "isolation": "SNOMED:122552005",
             "storage": "refrigitation at 4 degree",
             "individual": "INDV_1",
+            "age_at_sampling": "66_TO_70",
             "tissue": "BTO:0000089"
         },
         {
@@ -185,6 +186,7 @@
             "isolation": "SNOMED:75016008",
             "storage": "refrigitation at 4 degree",
             "individual": "INDV_1",
+            "age_at_sampling": "66_TO_70",
             "tissue": "BTO:0004042"
         }
     ],
@@ -269,8 +271,6 @@
             "alias": "INDV_1",
             "sex": "MALE_SEX_FOR_CLINICAL_USE",
             "karyotype": "OTHER",
-            "age_at_sampling": "66_TO_70",
-            "vital_status": "ALIVE",
             "geographical_region": "HANCESTRO:0307",
             "ancestries": [
                 "HANCESTRO:0005"
@@ -283,8 +283,6 @@
             "alias": "MOTHER_1",
             "sex": "FEMALE_SEX_FOR_CLINICAL_USE",
             "karyotype": "OTHER",
-            "age_at_sampling": "81_OR_OLDER",
-            "vital_status": "ALIVE",
             "geographical_region": "HANCESTRO:0307",
             "ancestries": [
                 "HANCESTRO:0005"
@@ -297,8 +295,6 @@
             "alias": "FATHER_1",
             "sex": "MALE_SEX_FOR_CLINICAL_USE",
             "karyotype": "OTHER",
-            "age_at_sampling": "81_OR_OLDER",
-            "vital_status": "ALIVE",
             "geographical_region": "HANCESTRO:0307",
             "ancestries": [
                 "HANCESTRO:0005"
@@ -395,6 +391,7 @@
             "format": "FASTQ",
             "size": 92161,
             "checksum": "098f6bcd4621d373cade4e832627b4f6",
+            "forward_or_reverse": "REVERSE",
             "checksum_type": "MD5",
             "dataset": "DS_1"
         },
@@ -405,6 +402,7 @@
             "format": "FASTQ",
             "size": 92161,
             "checksum": "25f9e794323b453885f5181f1b624d0b",
+            "forward_or_reverse": "REVERSE",
             "checksum_type": "MD5",
             "dataset": "DS_1"
         },
@@ -415,6 +413,7 @@
             "format": "FASTQ",
             "size": 92161,
             "checksum": "c4ca4238a0b923820dcc509a6f75849b",
+            "forward_or_reverse": "REVERSE",
             "checksum_type": "MD5",
             "dataset": "DS_1"
         },
@@ -425,6 +424,7 @@
             "format": "FASTQ",
             "size": 92161,
             "checksum": "098f6bcd4621d373cade4e832627b4f6",
+            "forward_or_reverse": "REVERSE",
             "checksum_type": "MD5",
             "dataset": "DS_2"
         },
@@ -435,6 +435,7 @@
             "format": "FASTQ",
             "size": 92161,
             "checksum": "5d41402abc4b2a76b9719d911017c592",
+            "forward_or_reverse": "REVERSE",
             "checksum_type": "MD5",
             "dataset": "DS_2"
         },
@@ -445,6 +446,7 @@
             "format": "FASTQ",
             "size": 92161,
             "checksum": "c81e728d9d4c2f636f067f89cc14862c",
+            "forward_or_reverse": "REVERSE",
             "checksum_type": "MD5",
             "dataset": "DS_2"
         },
@@ -455,6 +457,7 @@
             "format": "FASTQ",
             "size": 92161,
             "checksum": "e10adc3949ba59abbe56e057f20f883e",
+            "forward_or_reverse": "REVERSE",
             "checksum_type": "MD5",
             "dataset": "DS_2"
         },
@@ -465,6 +468,7 @@
             "format": "FASTQ",
             "size": 92161,
             "checksum": "8f14e45fceea167a5a36dedd4bea2543",
+            "forward_or_reverse": "REVERSE",
             "checksum_type": "MD5",
             "dataset": "DS_2"
         },
@@ -475,6 +479,7 @@
             "format": "FASTQ",
             "size": 92161,
             "checksum": "9bf31c7ff062936a96d3c8bd1f8f2ff3",
+            "forward_or_reverse": "REVERSE",
             "checksum_type": "MD5",
             "dataset": "DS_2"
         }
@@ -489,6 +494,8 @@
             "sequencing_lane_id": "LANE_123",
             "sequencing_machine_id": "SEQ_MACHINE_123",
             "sequencing_experiment": "SEQ_EXP_1",
+            "index_sequence": "AGTCGATCGTAC",
+            "lane_number": "lane_1",
             "sample": "SAMPLE_1"
         },
         {
@@ -500,6 +507,8 @@
             "sequencing_lane_id": "LANE_124",
             "sequencing_machine_id": "SEQ_MACHINE_123",
             "sequencing_experiment": "SEQ_EXP_1",
+            "index_sequence": "AGTCGATCGTAC",
+            "lane_number": "lane_2",
             "sample": "SAMPLE_1"
         },
         {
@@ -511,6 +520,8 @@
             "sequencing_lane_id": "LANE_125",
             "sequencing_machine_id": "SEQ_MACHINE_123",
             "sequencing_experiment": "SEQ_EXP_1",
+            "index_sequence": "AGTCGATCGTAC",
+            "lane_number": "lane_3",
             "sample": "SAMPLE_1"
         },
         {
@@ -522,6 +533,8 @@
             "sequencing_lane_id": "LANE_126",
             "sequencing_machine_id": "SEQ_MACHINE_123",
             "sequencing_experiment": "SEQ_EXP_1",
+            "index_sequence": "AGTCGATCGTAC",
+            "lane_number": "lane_4",
             "sample": "SAMPLE_2"
         },
         {
@@ -533,6 +546,8 @@
             "sequencing_lane_id": "LANE_127",
             "sequencing_machine_id": "SEQ_MACHINE_123",
             "sequencing_experiment": "SEQ_EXP_1",
+            "index_sequence": "AGTCGATCGTAC",
+            "lane_number": "lane_5",
             "sample": "SAMPLE_2"
         },
         {
@@ -544,6 +559,8 @@
             "sequencing_lane_id": "LANE_128",
             "sequencing_machine_id": "SEQ_MACHINE_123",
             "sequencing_experiment": "SEQ_EXP_1",
+            "index_sequence": "AGTCGATCGTAC",
+            "lane_number": "lane_6",
             "sample": "SAMPLE_2"
         },
         {
@@ -555,6 +572,8 @@
             "sequencing_lane_id": "LANE_129",
             "sequencing_machine_id": "SEQ_MACHINE_123",
             "sequencing_experiment": "SEQ_EXP_1",
+            "index_sequence": "AGTCGATCGTAC",
+            "lane_number": "lane_7",
             "sample": "SAMPLE_2"
         },
         {
@@ -566,6 +585,8 @@
             "sequencing_lane_id": "LANE_130",
             "sequencing_machine_id": "SEQ_MACHINE_123",
             "sequencing_experiment": "SEQ_EXP_1",
+            "index_sequence": "AGTCGATCGTAC",
+            "lane_number": "lane_8",
             "sample": "SAMPLE_2"
         },
         {
@@ -577,6 +598,8 @@
             "sequencing_lane_id": "LANE_131",
             "sequencing_machine_id": "SEQ_MACHINE_123",
             "sequencing_experiment": "SEQ_EXP_1",
+            "index_sequence": "AGTCGATCGTAC",
+            "lane_number": "lane_9",
             "sample": "SAMPLE_2"
         }
     ],
@@ -588,7 +611,6 @@
             "instrument_model": "ILLUMINA_NOVA_SEQ_6000",
             "sequencing_center": "Center A",
             "sequencing_read_length": "long",
-            "forward_or_reverse": "REVERSE",
             "target_coverage": "x50",
             "flow_cell_id": "ID_Cell 1_Lane_1",
             "flow_cell_type": "ILLUMINA_NOVA_SEQ_S4",
@@ -598,9 +620,7 @@
             "cell_barcode_read": "INDEX1",
             "cell_barcode_offset": "20'",
             "cell_barcode_size": "18'",
-            "sample_barcode_read": "INDEX1",
-            "index_sequence": "AGTCGATCGTAC",
-            "lane_number": "lane_1"
+            "sample_barcode_read": "INDEX1"
         }
     ],
     "studies": [
