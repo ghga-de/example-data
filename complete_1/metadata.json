@@ -172,22 +172,22 @@
             "name": "Biospecmen material",
             "type": "Blood",
             "description": "Blood biospecimen",
-            "isolation": "SNOMED:122552005",
+            "isolation": "Arterial blood specimen",
             "storage": "refrigitation at 4 degree",
             "individual": "INDV_1",
             "age_at_sampling": "66_TO_70",
-            "tissue": "BTO:0000089"
+            "tissue": "blood"
         },
         {
             "alias": "BIOSPECIMEN_2",
             "name": "Another biospecimen material",
             "type": "Subcutaneous fat",
             "description": "Subcutaneous fat biospecimen",
-            "isolation": "SNOMED:75016008",
+            "isolation": "Biopsy of soft tissue ",
             "storage": "refrigitation at 4 degree",
             "individual": "INDV_1",
             "age_at_sampling": "66_TO_70",
-            "tissue": "BTO:0004042"
+            "tissue": "subcutaneous adipose tissue"
         }
     ],
     "conditions": [
@@ -271,36 +271,36 @@
             "alias": "INDV_1",
             "sex": "MALE_SEX_FOR_CLINICAL_USE",
             "karyotype": "OTHER",
-            "geographical_region": "HANCESTRO:0307",
+            "geographical_region": "Italy",
             "ancestries": [
-                "HANCESTRO:0005"
+                "European"
             ],
             "phenotypic_features": [
-                "HP:0001909"
+                "Leukemia"
             ]
         },
         {
             "alias": "MOTHER_1",
             "sex": "FEMALE_SEX_FOR_CLINICAL_USE",
             "karyotype": "OTHER",
-            "geographical_region": "HANCESTRO:0307",
+            "geographical_region": "Italy",
             "ancestries": [
-                "HANCESTRO:0005"
+                "European"
             ],
             "phenotypic_features": [
-                "HP:0001909"
+                "Leukemia"
             ]
         },
         {
             "alias": "FATHER_1",
             "sex": "MALE_SEX_FOR_CLINICAL_USE",
             "karyotype": "OTHER",
-            "geographical_region": "HANCESTRO:0307",
+            "geographical_region": "Italy",
             "ancestries": [
-                "HANCESTRO:0005"
+                "European"
             ],
             "phenotypic_features": [
-                "HP:0001909"
+                "Leukemia"
             ]
         }
     ],
@@ -357,7 +357,7 @@
             "name": "GHGAS_blood_sample1",
             "type": "CF_DNA",
             "description": "Arterial blood sample 1",
-            "isolation": "SNOMED:466722000",
+            "isolation": "Blood collection tube holder/needle",
             "storage": "frozen at -20",
             "biospecimen": "BIOSPECIMEN_1",
             "condition": "COND_1"
@@ -367,7 +367,7 @@
             "name": "GHGAS_tissue_sample1",
             "type": "CF_DNA",
             "description": "white adipose tissue sample 1",
-            "isolation": "SNOMED:9911007",
+            "isolation": "Core needle biopsy",
             "storage": "frozen at -80",
             "biospecimen": "BIOSPECIMEN_2",
             "condition": "COND_2"
