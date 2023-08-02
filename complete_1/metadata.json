@@ -615,11 +615,11 @@
             "flow_cell_id": "ID_Cell 1_Lane_1",
             "flow_cell_type": "ILLUMINA_NOVA_SEQ_S4",
             "umi_barcode_read": "INDEX1",
-            "umi_barcode_offset": "16'",
-            "umi_barcode_size": "10'",
+            "umi_barcode_offset": "16",
+            "umi_barcode_size": "10",
             "cell_barcode_read": "INDEX1",
-            "cell_barcode_offset": "20'",
-            "cell_barcode_size": "18'",
+            "cell_barcode_offset": "20",
+            "cell_barcode_size": "18",
             "sample_barcode_read": "INDEX1"
         }
     ],
