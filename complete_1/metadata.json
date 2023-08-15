@@ -259,7 +259,7 @@
         {
             "alias": "DS_B",
             "title": "The complete-B dataset",
-            "description": "An interesting dataset B of compelete example set",
+            "description": "An interesting dataset B of complete example set",
             "types": [
                 "And another Type"
             ],
