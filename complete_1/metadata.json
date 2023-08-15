@@ -16,7 +16,7 @@
             "name": "SAMPLE_1_SPECIMEN_1_FILE_1.vcf.gz",
             "format": "VCF",
             "size": 15,
-            "checksum": "5322fecfc92a5e3248a297a3df3eddfb9bd9049504272e4f572b87fa36d4b3bd",
+            "checksum": "730b8eb7322fd8b763cf3fcefbfea4488ad4c6af05c55f4945e8f2f43d16dc51",
             "checksum_type": "SHA256",
             "dataset": "DS_A"
         },
@@ -26,7 +26,7 @@
             "name": "SAMPLE_1_SPECIMEN_1_FILE_2.vcf.gz",
             "format": "VCF",
             "size": 70,
-            "checksum": "82fcfd5215175da9e65ca7c4fb927a1fb0e61f09d54987c368e8e16ebd9c2969",
+            "checksum": "f3e8f36baa79d33cca9c4dfa2bec12e57b7c8c4bb3d9c62600cb8773dad91393",
             "checksum_type": "SHA256",
             "dataset": "DS_A"
         },
@@ -36,7 +36,7 @@
             "name": "SAMPLE_1_SPECIMEN_1_FILE_3.vcf.gz",
             "format": "VCF",
             "size": 501,
-            "checksum": "01064fb25c62c76b1f0b7b12de7a44b021b320a735eb9361639500029cb11586",
+            "checksum": "ac252bccd424089f2740ba6e23e22c72196b8b139029f908bb6b04e2343019b8",
             "checksum_type": "SHA256",
             "dataset": "DS_A"
         },
@@ -46,7 +46,7 @@
             "name": "SAMPLE_2_SPECIMEN_1_FILE_4.vcf.gz",
             "format": "VCF",
             "size": 512,
-            "checksum": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560",
+            "checksum": "29559d05b2dd3742b9900976b6b4e3e13c58fac738ae17226936d51cb547dbff",
             "checksum_type": "SHA256",
             "dataset": "DS_B"
         },
@@ -56,7 +56,7 @@
             "name": "SAMPLE_2_SPECIMEN_1_FILE_5.vcf.gz",
             "format": "VCF",
             "size": 970,
-            "checksum": "3ac00a957c0415a430db2289a1743fa1563d3958d3e0dd4e4bcea048fa22acee",
+            "checksum": "b0af5165569616345c348dbac24c93d2aed47410e3ab1628ab79d0d256d0d56e",
             "checksum_type": "SHA256",
             "dataset": "DS_B"
         },
@@ -66,7 +66,7 @@
             "name": "SAMPLE_2_SPECIMEN_1_FILE_6.vcf.gz",
             "format": "VCF",
             "size": 2048,
-            "checksum": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+            "checksum": "a5a1244101c6c1a2abc2faa7a2dd940c509ec7cd2f6bf46ece7773868e9cd6bd",
             "checksum_type": "SHA256",
             "dataset": "DS_B"
         },
@@ -76,7 +76,7 @@
             "name": "SAMPLE_2_SPECIMEN_1_FILE_7.vcf.gz",
             "format": "VCF",
             "size": 61441,
-            "checksum": "9fb292270984a7f106cedf076ab726467e46c3ec751a220b6cbdba57d32b1500",
+            "checksum": "097364ef8cd360f86098e860bf4250346307730537b48f6ccfed340042733b12",
             "checksum_type": "SHA256",
             "dataset": "DS_B"
         },
@@ -86,7 +86,7 @@
             "name": "SAMPLE_2_SPECIMEN_1_FILE_8.vcf.gz",
             "format": "VCF",
             "size": 92161,
-            "checksum": "d6f9f55d24769bf6ec01e0944b9b0d877fc28549f955e5b18b54df54b6af3c6d",
+            "checksum": "c6e81f5832df721a07f76ecfcb18123368e8b1182b78043007fb202466b32d90",
             "checksum_type": "SHA256",
             "dataset": "DS_B"
         },
@@ -96,7 +96,7 @@
             "name": "SAMPLE_2_SPECIMEN_1_FILE_9.vcf.gz",
             "format": "VCF",
             "size": 43009,
-            "checksum": "3f5993bf7c097ac50ebd4a34773668b3d6dcd0918f95181605a67ded16a1fe2c",
+            "checksum": "e714adc1b1620e3391de0288d81e72e2878a51baf51d12c1e8d2d355ea7464c0",
             "checksum_type": "SHA256",
             "dataset": "DS_B"
         }
@@ -390,7 +390,7 @@
             "name": "SAMPLE_1_SPECIMEN_1_FILE_1.fastq.gz",
             "format": "FASTQ",
             "size": 37,
-            "checksum": "ab24a95f44ceca5d2aed4b6d056adddd8539f44c6cd6ca506534e830c82ea8a8",
+            "checksum": "179d3b3a5ebb2d21f55e9963cd11b9c13490133d46f48ecfd1dc9155526a7c17",
             "forward_or_reverse": "REVERSE",
             "checksum_type": "SHA256",
             "dataset": "DS_A"
@@ -401,7 +401,7 @@
             "name": "SAMPLE_1_SPECIMEN_1_FILE_2.fastq.gz",
             "format": "FASTQ",
             "size": 153,
-            "checksum": "f1663cceeb67ba35c5a5cbf58b56050ddbe5ec5680ea9e55837b57524f29b876",
+            "checksum": "cce8d1620fe57101fe6abeb26e32b731995b64a7f254cc22c3d4d3996091f01d",
             "forward_or_reverse": "REVERSE",
             "checksum_type": "SHA256",
             "dataset": "DS_A"
@@ -412,7 +412,7 @@
             "name": "SAMPLE_1_SPECIMEN_1_FILE_3.fastq.gz",
             "format": "FASTQ",
             "size": 1000,
-            "checksum": "541b3e9daa09b20bf85fa273e5cbd3e80185aa4ec298e765db87742b70138a53",
+            "checksum": "4d34ab99339c1ccc6ed3c12f5704dc860ac07f39643fbd20dcf8aec2e9745ac0",
             "forward_or_reverse": "REVERSE",
             "checksum_type": "SHA256",
             "dataset": "DS_A"
@@ -423,7 +423,7 @@
             "name": "SAMPLE_2_SPECIMEN_1_FILE_4.fastq.gz",
             "format": "FASTQ",
             "size": 1024,
-            "checksum": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+            "checksum": "d60adf77e7d62fa786691b7f11af3b5d3d6c67dbea5d247632f5774267fdad75",
             "forward_or_reverse": "REVERSE",
             "checksum_type": "SHA256",
             "dataset": "DS_B"
@@ -434,7 +434,7 @@
             "name": "SAMPLE_2_SPECIMEN_1_FILE_5.fastq.gz",
             "format": "FASTQ",
             "size": 1050,
-            "checksum": "439eaa30ec73c6927a138e3f9fafad93090cec2bca30e0a3030fccc4f95b981e",
+            "checksum": "c5a972aaabf98f53bb631c46d6378b60ad1596fb5c56dbeea94b622f50b35725",
             "forward_or_reverse": "REVERSE",
             "checksum_type": "SHA256",
             "dataset": "DS_B"
@@ -445,7 +445,7 @@
             "name": "SAMPLE_2_SPECIMEN_1_FILE_6.fastq.gz",
             "format": "FASTQ",
             "size": 4000,
-            "checksum": "fc19b1997119425765295aeab72d76faa6927d4f83985d328c26f20468d6cc76",
+            "checksum": "4d4e31a0a750686f1214d554d1e983df137995cb0c8a549a958efe9f43d10f46",
             "forward_or_reverse": "REVERSE",
             "checksum_type": "SHA256",
             "dataset": "DS_B"
@@ -456,7 +456,7 @@
             "name": "SAMPLE_2_SPECIMEN_1_FILE_7.fastq.gz",
             "format": "FASTQ",
             "size": 53249,
-            "checksum": "6024ce473e3f715010eabc7f1d1a29562f870cd127b94dc9ce9b8e8394c0f414",
+            "checksum": "380aa8639ad048486ddbfe95523d72dc681c41938fe868bb839f0d0ad634c114",
             "forward_or_reverse": "REVERSE",
             "checksum_type": "SHA256",
             "dataset": "DS_B"
@@ -467,7 +467,7 @@
             "name": "SAMPLE_2_SPECIMEN_1_FILE_8.fastq.gz",
             "format": "FASTQ",
             "size": 96257,
-            "checksum": "a28a8b6b2b1931342ffaf8dc3013a888f96f3f4601332746123efd6a5b0271a8",
+            "checksum": "0b53a708ffaadacee98365425bc5b42339cf1a8a7734ba6f843e0a41a1b3ba30",
             "forward_or_reverse": "REVERSE",
             "checksum_type": "SHA256",
             "dataset": "DS_B"
@@ -478,7 +478,7 @@
             "name": "SAMPLE_2_SPECIMEN_1_FILE_9.fastq.gz",
             "format": "FASTQ",
             "size": 49153,
-            "checksum": "1ef0f1724c41b22991a1b3d49c4628e3adc8e7a2b7b796154df0d00462822e38",
+            "checksum": "28eb8623906504a2441906a2c5d446ee78f7d1193c3f0bb7db43e0bdc026f585",
             "forward_or_reverse": "REVERSE",
             "checksum_type": "SHA256",
             "dataset": "DS_B"
@@ -661,7 +661,7 @@
             "name": "STUDY_1_SPECIMEN_1_FILE_1.fastq.gz",
             "format": "FASTQ",
             "size": 40,
-            "checksum": "2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb",
+            "checksum": "ff4b3612b3e2763f15530fb26fbb3e107fd3d9f05dea77e8978ff3e005585759",
             "forward_or_reverse": "REVERSE",
             "checksum_type": "SHA256",
             "dataset": "DS_A"
