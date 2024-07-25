@@ -60,6 +60,7 @@
             "analysis_method": "ANALYSIS_METHOD_1",
             "name": "analysis_method_1_parameters.txt",
             "dataset": "DS_B",
+            "ega_accession": "EGAANALYSISMETHOD123456",
             "included_in_submission": true
         }
     ],
@@ -217,6 +218,7 @@
             "experiment_method": "EXP_METHOD_1",
             "name": "exp_method_1_protocol.txt",
             "dataset": "DS_A",
+            "ega_accession": "EGAEXPERIMENTMETHOD123456",
             "included_in_submission": true
         }
     ],
@@ -246,13 +248,13 @@
             "format": "FASTQ",
             "technical_replicate": 1,
             "sequencing_lane_id": "LANE_123",
-            "ega_accession": "EGAFILE12346",
-            "experiment": [
+            "experiments": [
                 "EXP_1",
                 "EXP_2"
             ],
             "name": "SAMPLE_1_SPECIMEN_1_FILE_1.fastq.gz",
             "dataset": "DS_A",
+            "ega_accession": "EGAFILE12346",
             "included_in_submission": true
         },
         {
@@ -260,12 +262,12 @@
             "format": "FASTQ",
             "technical_replicate": 2,
             "sequencing_lane_id": "LANE_124",
-            "ega_accession": "EGAFILE12347",
-            "experiment": [
+            "experiments": [
                 "EXP_1"
             ],
             "name": "SAMPLE_1_SPECIMEN_1_FILE_2.fastq.gz",
             "dataset": "DS_A",
+            "ega_accession": "EGAFILE12347",
             "included_in_submission": true
         },
         {
@@ -273,12 +275,12 @@
             "format": "FASTQ",
             "technical_replicate": 3,
             "sequencing_lane_id": "LANE_125",
-            "ega_accession": "EGAFILE12348",
-            "experiment": [
+            "experiments": [
                 "EXP_1"
             ],
             "name": "SAMPLE_1_SPECIMEN_1_FILE_3.fastq.gz",
             "dataset": "DS_A",
+            "ega_accession": "EGAFILE12348",
             "included_in_submission": true
         },
         {
@@ -286,12 +288,12 @@
             "format": "FASTQ",
             "technical_replicate": 1,
             "sequencing_lane_id": "LANE_126",
-            "ega_accession": "EGAFILE12349",
-            "experiment": [
+            "experiments": [
                 "EXP_2"
             ],
             "name": "SAMPLE_2_SPECIMEN_1_FILE_4.fastq.gz",
             "dataset": "DS_B",
+            "ega_accession": "EGAFILE12349",
             "included_in_submission": true
         },
         {
@@ -299,12 +301,12 @@
             "format": "FASTQ",
             "technical_replicate": 2,
             "sequencing_lane_id": "LANE_127",
-            "ega_accession": "EGAFILE12350",
-            "experiment": [
+            "experiments": [
                 "EXP_2"
             ],
             "name": "SAMPLE_2_SPECIMEN_1_FILE_5.fastq.gz",
             "dataset": "DS_B",
+            "ega_accession": "EGAFILE12350",
             "included_in_submission": true
         },
         {
@@ -312,12 +314,12 @@
             "format": "FASTQ",
             "technical_replicate": 3,
             "sequencing_lane_id": "LANE_128",
-            "ega_accession": "EGAFILE12351",
-            "experiment": [
+            "experiments": [
                 "EXP_2"
             ],
             "name": "SAMPLE_2_SPECIMEN_1_FILE_6.fastq.gz",
             "dataset": "DS_B",
+            "ega_accession": "EGAFILE12351",
             "included_in_submission": true
         },
         {
@@ -325,12 +327,12 @@
             "format": "FASTQ",
             "technical_replicate": 4,
             "sequencing_lane_id": "LANE_129",
-            "ega_accession": "EGAFILE12352",
-            "experiment": [
+            "experiments": [
                 "EXP_2"
             ],
             "name": "SAMPLE_2_SPECIMEN_1_FILE_7.fastq.gz",
             "dataset": "DS_B",
+            "ega_accession": "EGAFILE12352",
             "included_in_submission": true
         },
         {
@@ -338,12 +340,12 @@
             "format": "FASTQ",
             "technical_replicate": 5,
             "sequencing_lane_id": "LANE_130",
-            "ega_accession": "EGAFILE12353",
-            "experiment": [
+            "experiments": [
                 "EXP_2"
             ],
             "name": "SAMPLE_2_SPECIMEN_1_FILE_8.fastq.gz",
             "dataset": "DS_B",
+            "ega_accession": "EGAFILE12353",
             "included_in_submission": true
         },
         {
@@ -351,12 +353,12 @@
             "format": "FASTQ",
             "technical_replicate": 6,
             "sequencing_lane_id": "LANE_131",
-            "ega_accession": "EGAFILE12354",
-            "experiment": [
+            "experiments": [
                 "EXP_2"
             ],
             "name": "SAMPLE_2_SPECIMEN_1_FILE_9.fastq.gz",
             "dataset": "DS_B",
+            "ega_accession": "EGAFILE12354",
             "included_in_submission": true
         }
     ],
@@ -364,16 +366,15 @@
         {
             "alias": "PROCESSED_DATA_FILE_1",
             "format": "VCF",
-            "ega_accession": "EGAPROCESSED12345",
             "analysis": "ANALYSIS_1",
             "name": "SAMPLE_1_SPECIMEN_FILE_1_2.vcf.gz",
             "dataset": "DS_A",
+            "ega_accession": "EGAPROCESSED12345",
             "included_in_submission": true
         },
         {
             "alias": "PROCESSED_DATA_FILE_2",
             "format": "VCF",
-            "ega_accession": "EGAPROCESSED12346",
             "analysis": "ANALYSIS_2",
             "name": "SAMPLE_1_SPECIMEN_1_FILE_3.vcf.gz",
             "dataset": "DS_A",
