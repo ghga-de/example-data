@@ -50,7 +50,11 @@
                     "key": "GATK",
                     "value": "4.5.0"
                 }
-            ]
+            ],
+            "reference_name": "hg38",
+            "reference_type": "GENOME",
+            "reference_source": "Ensembl",
+            "reference_version": "v2025"
         }
     ],
     "analysis_method_supporting_files": [
