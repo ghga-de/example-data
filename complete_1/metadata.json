@@ -54,7 +54,8 @@
             "reference_name": "hg38",
             "reference_type": "GENOME",
             "reference_source": "Ensembl",
-            "reference_version": "v2025"
+            "reference_link": "https://here-is-my-reference.ref",
+            "reference_version": "1.19.4"
         }
     ],
     "analysis_method_supporting_files": [
@@ -92,18 +93,6 @@
                     "value": "EU"
                 }
             ]
-        },
-        {
-            "alias": "STUDY_B",
-            "title": "The B Study",
-            "description": "A study that is the B study",
-            "types": [
-                "WHOLE_GENOME_SEQUENCING"
-            ],
-            "ega_accession": "EGASTUDY12346",
-            "affiliations": [
-                "Some Institute"
-            ]
         }
     ],
     "individuals": [
@@ -139,7 +128,13 @@
             "individual": "INDV_1",
             "name": "indv_1_phenopackage.json",
             "dataset": "DS_A",
-            "included_in_submission": true
+            "included_in_submission": true,
+            "attributes": [
+                {
+                    "key": "content",
+                    "value": "condition"
+                }
+            ]
         }
     ],
     "samples": [
@@ -251,6 +246,7 @@
             "alias": "RESEARCH_DATA_FILE_1",
             "format": "FASTQ",
             "technical_replicate": 1,
+            "read_type": "I1",
             "sequencing_lane_id": "LANE_123",
             "experiments": [
                 "EXP_1",
@@ -265,6 +261,7 @@
             "alias": "RESEARCH_DATA_FILE_2",
             "format": "FASTQ",
             "technical_replicate": 2,
+            "read_type": "R1",
             "sequencing_lane_id": "LANE_124",
             "experiments": [
                 "EXP_1"
@@ -278,6 +275,7 @@
             "alias": "RESEARCH_DATA_FILE_3",
             "format": "FASTQ",
             "technical_replicate": 3,
+            "read_type": "R2",
             "sequencing_lane_id": "LANE_125",
             "experiments": [
                 "EXP_1"
@@ -291,6 +289,7 @@
             "alias": "RESEARCH_DATA_FILE_4",
             "format": "FASTQ",
             "technical_replicate": 1,
+            "read_type": "R1",
             "sequencing_lane_id": "LANE_126",
             "experiments": [
                 "EXP_2"
@@ -304,6 +303,7 @@
             "alias": "RESEARCH_DATA_FILE_5",
             "format": "FASTQ",
             "technical_replicate": 2,
+            "read_type": "R2",
             "sequencing_lane_id": "LANE_127",
             "experiments": [
                 "EXP_2"
@@ -317,6 +317,7 @@
             "alias": "RESEARCH_DATA_FILE_6",
             "format": "FASTQ",
             "technical_replicate": 3,
+            "read_type": "R1",
             "sequencing_lane_id": "LANE_128",
             "experiments": [
                 "EXP_2"
@@ -330,6 +331,7 @@
             "alias": "RESEARCH_DATA_FILE_7",
             "format": "FASTQ",
             "technical_replicate": 4,
+            "read_type": "R2",
             "sequencing_lane_id": "LANE_129",
             "experiments": [
                 "EXP_2"
@@ -343,6 +345,7 @@
             "alias": "RESEARCH_DATA_FILE_8",
             "format": "FASTQ",
             "technical_replicate": 5,
+            "read_type": "R1",
             "sequencing_lane_id": "LANE_130",
             "experiments": [
                 "EXP_2"
@@ -356,6 +359,7 @@
             "alias": "RESEARCH_DATA_FILE_9",
             "format": "FASTQ",
             "technical_replicate": 6,
+            "read_type": "R2",
             "sequencing_lane_id": "LANE_131",
             "experiments": [
                 "EXP_2"
@@ -407,7 +411,7 @@
             ],
             "ega_accession": "EGADATASET12346",
             "data_access_policy": "DAP_2",
-            "study": "STUDY_B"
+            "study": "STUDY_A"
         }
     ],
     "data_access_policies": [
@@ -459,7 +463,7 @@
             "alias": "PUB_1",
             "study": "STUDY_A",
             "title": "A paper of a study",
-            "abstract": "This study aims finding findings.",
+            "abstract": "This study aims at finding findings.",
             "author": "John Doe",
             "year": 1965,
             "journal": "Journal of Studies",
@@ -472,7 +476,7 @@
             "alias": "PUB_2",
             "study": "STUDY_A",
             "title": "Another paper of the same study",
-            "abstract": "This study aims finding more findings.",
+            "abstract": "This study aims at finding more findings.",
             "author": "John Doe",
             "year": 1967,
             "journal": "Journal of Studies",
